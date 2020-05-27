@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* font-family: "Source Sans Pro"; */
+  font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-right: 30rem;
+  margin-top: 40vh;
+}
+
+.container h1 {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+.container h2 {
+  color: white;
+  margin-left: auto;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.container h4 {
+  color: #9e9d9d;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.name {
+  color: #ec6767;
+}
+
+.container button {
+  margin-left: auto;
+  width: 8rem;
+  height: 3rem;
+  background-color: #1d1d1d;
+  border: 2px solid #ec6767;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s linear;
+  border-radius: 2rem;
+}
+
+.container button:hover {
+  box-shadow: 0 0 3px 2px #ec6767;
+}
+.container button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container h2 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  .container h1 {
+    font-size: 1.5rem;
+  }
+  .container h2 {
+    font-size: 0.8rem;
+  }
+}
