@@ -281,7 +281,7 @@ class SnakeGame extends Component {
   componentDidMount = () => {
     document.addEventListener("keydown", (directionKey) => {
       this.setState({ snakeDirection: directionKey.code });
-      console.log(this.state.snakeDirection);
+      console.log(directionKey.code);
     });
     this.setState({ highScore: localStorage.getItem("snake_game_high_score") });
     // this.start();
