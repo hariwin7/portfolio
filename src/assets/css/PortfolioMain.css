@@ -1,12 +1,18 @@
 .flex-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
   font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .aboutme {
-  background-color: #1d1d1d;
+  /* background-color: #1d1d1d; */
+  background: linear-gradient(
+    to right,
+    #1d1d1d 0%,
+    #1d1d1d 45%,
+    #2a9d8f 45%,
+    #2a9d8f 100%
+  );
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
@@ -16,6 +22,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  /* background-color: #eceff2; */
 }
 
 .section {
@@ -29,6 +36,9 @@
   font-weight: bold;
   margin-left: 45%;
   margin-top: 1rem;
+  color: #2368a2;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
 }
 
 .item {
@@ -36,15 +46,36 @@
   flex-direction: column;
   width: 40%;
   padding: 2rem;
-  margin: 3rem;
-  min-height: 25rem;
-  box-shadow: 1px 1px 3px 3px #e9d5d591;
+  margin: 2rem 1rem 3rem 4.5rem;
+  min-height: 20rem;
+  box-shadow: 1px 1px 3px 2px #eceff2;
   border-radius: 1rem;
+  background-color: white;
 }
-.pragyaam {
-  width: 30rem;
-  height: 15rem;
-  padding-top: 5rem;
+.overlay {
+  position: relative;
+}
+.overlay:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  opacity: 0;
+}
+.overlay:hover:after {
+  opacity: 0.5;
+  background-color: #e9c46a;
+}
+.item-image {
+  width: 60%;
+  height: 50%;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  /* box-shadow: 1px 1px 2px 2px #eceff2; */
 }
 
 .footer {
@@ -61,6 +92,50 @@
   padding-left: 13rem;
   padding-top: 1rem;
   color: white;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.role {
+  font-size: 15px;
+  font-weight: 800;
+  color: #2368a2;
+}
+.button {
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #e2e2e2;
+  /* border: 1px solid #ec6767; */
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 0.5;
+  font-weight: 800;
+  color: black;
+  align-self: center;
+  /* box-shadow: 0 0 1px 0.5px #ec6767; */
+}
+
+.button:hover {
+  background-color: #cecdcd;
+  /* border: 1px solid #ec6767; */
+  color: black;
+  /* box-shadow: 0px 0px 2px 1px #ec6767; */
+}
+.button:focus {
+  outline: none;
+}
+
+.item-head {
+  display: flex;
+  flex-direction: row;
+}
+.item-head-cont {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -81,14 +156,14 @@
     padding-left: 1rem;
     padding-top: 1rem;
   }
-  .pragyaam {
-    width: 20rem;
+  .item-image {
+    width: 18rem;
     height: 10rem;
     padding-top: 5rem;
   }
   .item {
-    width: 20rem;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    width: 90%;
+    padding: 2%;
+    margin: 5%;
   }
 }

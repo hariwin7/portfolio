@@ -6,7 +6,7 @@ import SnakeGame from "../components/SnakeGame";
 import "../assets/css/PortfolioMain.css";
 
 import pragyaam from "../assets/images/pragyaam.png";
-import caredata from "../assets/images/caredata.jpg";
+// import caredata from "../assets/images/caredata.jpg";
 import caredtbackdrop from "../assets/images/caredtbackdrop.jpg";
 
 const PortfolioMain = () => {
@@ -27,27 +27,53 @@ const PortfolioMain = () => {
         <div ref={myRef} className="main-content">
           <span className="heading">Experience</span>
           <div className="section">
-            <div className="item ">
-              <span>Pragyaam (Startup)</span>
-              <img className="pragyaam" src={pragyaam} />
+            <div className="item overlay">
+              <div className="item-head">
+                <div className="item-head-cont">
+                  <span className="company-name">Pragyaam (Startup)</span>
+                  <span className="role">Full Stack Developer</span>
+                </div>
+                <button className="button">Go To Site</button>
+              </div>
+              <img className="item-image" alt={""} src={pragyaam} />
+              <span>Build And Maintained A Complete Analytics Engine</span>
             </div>
             <div className="item ">
-              <span>Caredata Solutions Pvt Ltd</span>
-              <img className="pragyaam" src={caredtbackdrop} />
+              <span className="company-name">Caredata Solutions Pvt Ltd</span>
+              <span className="role">Junior Software Engineer</span>
+              <img className="item-image" alt={""} src={caredtbackdrop} />
             </div>
           </div>
           <span className="heading">Projects</span>
           <div className="section">
             <div className="item ">
-              <span>React SnakeGame (Hobby)</span>
+              <span className="company-name">React SnakeGame</span>
+              <span className="role">Hobby Project</span>
               <SnakeGame />
             </div>
             <div className="item ">
-              <span>Movie Recommendation And Prediction Webapp (B.tech)</span>
+              <span className="company-name">
+                Movie Recommendation And Prediction Webapp
+              </span>
+              <span className="role">Final Project (B.Tech)</span>
               <img
-                className="pragyaam"
+                className="item-image"
+                alt={""}
                 src="https://github.com/hariwin7/movie-recommendation-and-prediction/blob/master/screenshots/recommendation%20rating.JPG?raw=truee"
               />
+            </div>
+          </div>
+          <span className="heading">Blogs</span>
+          <div className="section">
+            <div className="item ">
+              <span className="company-name">Pragyaam (Startup)</span>
+              <span className="role">Full Stack Developer</span>
+              <img className="item-image" alt={""} src={pragyaam} />
+            </div>
+            <div className="item ">
+              <span className="company-name">Caredata Solutions Pvt Ltd</span>
+              <span className="role">Junior Software Engineer</span>
+              <img className="item-image" alt={""} src={caredtbackdrop} />
             </div>
           </div>
         </div>
