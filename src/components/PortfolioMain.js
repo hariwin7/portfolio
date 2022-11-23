@@ -15,25 +15,25 @@ const experience = [
     year: "Aug 2022-Nov 2022",
     companyName: "Filestage",
     location: "Germany, Stuttgart (Remote)",
-    role: "Software Engineer",
+    role: "Software Developer",
   },
   {
     year: "Jan 2021-Apr 2022",
     companyName: "Tranzact",
     location: "Mumbai, India (Remote)",
-    role: "Software Engineer",
+    role: "Software Engineer II",
   },
   {
     year: "Jul 2019-Dec 2020",
     companyName: "Work On Grid",
     location: "Banglore, India",
-    role: "Software Engineer",
+    role: "Software Development Engineer",
   },
   {
     year: "Apr 2018-Aug 2018",
     companyName: "Caredata Solutions Pvt Ltd.",
     location: "Thrissur, India",
-    role: "Software Engineer",
+    role: "Junior Software Engineer",
   },
 ];
 
@@ -44,6 +44,7 @@ const PortfolioMain = () => {
     homeRef.current.scrollIntoView({
       behavior: "smooth",
       block: "nearest",
+      inline: "center",
     });
   };
 
@@ -51,6 +52,7 @@ const PortfolioMain = () => {
     aboutRef.current.scrollIntoView({
       behavior: "smooth",
       block: "nearest",
+      inline: "center",
     });
   };
 
@@ -83,7 +85,7 @@ const PortfolioMain = () => {
             <img src={profileImage} alt="Profile" />
           </div>
         </div>
-        <div ref={aboutRef} className="section-about">
+        <div className="section-about">
           <div className="about-wrapper">
             <div className="about">
               <h1>
@@ -102,21 +104,21 @@ const PortfolioMain = () => {
             </a>
           </div>
         </div>
-        <div className="section-mystory">
+        <div className="section-mystory" ref={aboutRef}>
           <div className="mystory-text">
-            <h4>My story</h4>
-            <p>
+            <h3>My story</h3>
+            <p className="body-paragraph">
               I have been a creative leader in the digital entertainment and
               software industry since 2011. During this time, I have had the
               opportunity to work with some amazing people on several
               cutting-edge projects.
-            </p>
-            <p>
+              <br />
+              <br />
               Projects I’ve worked on include an aviation simulation game (NFA)
               to conceptual products for multi-million dollar corporations
               (Amazon, KBB, and more). Along this journey, I have worn several .
-            </p>
-            <p>
+              <br />
+              <br />
               As a creative leader and mentor, I strive to have my teams
               flourish by challenging them to be innovative and get out of their
               comfort zones.
