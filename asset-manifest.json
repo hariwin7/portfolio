@@ -1,24 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6de171c.chunk.css",
-    "main.js": "/static/js/main.466fed8b.chunk.js",
-    "main.js.map": "/static/js/main.466fed8b.chunk.js.map",
+    "main.css": "/static/css/main.e987529e.chunk.css",
+    "main.js": "/static/js/main.c89ea477.chunk.js",
+    "main.js.map": "/static/js/main.c89ea477.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
-    "static/js/2.7c0d8f17.chunk.js": "/static/js/2.7c0d8f17.chunk.js",
-    "static/js/2.7c0d8f17.chunk.js.map": "/static/js/2.7c0d8f17.chunk.js.map",
+    "static/js/2.293151c0.chunk.js": "/static/js/2.293151c0.chunk.js",
+    "static/js/2.293151c0.chunk.js.map": "/static/js/2.293151c0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9f6080639a7394a217ec6750fec6ab11.js": "/precache-manifest.9f6080639a7394a217ec6750fec6ab11.js",
+    "precache-manifest.b7ccbb38e599830e45b6cd92581796bd.js": "/precache-manifest.b7ccbb38e599830e45b6cd92581796bd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e6de171c.chunk.css.map": "/static/css/main.e6de171c.chunk.css.map",
-    "static/js/2.7c0d8f17.chunk.js.LICENSE.txt": "/static/js/2.7c0d8f17.chunk.js.LICENSE.txt",
+    "static/css/main.e987529e.chunk.css.map": "/static/css/main.e987529e.chunk.css.map",
+    "static/js/2.293151c0.chunk.js.LICENSE.txt": "/static/js/2.293151c0.chunk.js.LICENSE.txt",
+    "static/media/aws-icon.svg": "/static/media/aws-icon.91a6a247.svg",
+    "static/media/django-icon.svg": "/static/media/django-icon.f4489add.svg",
+    "static/media/docker-icon.svg": "/static/media/docker-icon.530d80a8.svg",
+    "static/media/express-js-icon.svg": "/static/media/express-js-icon.caf14960.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.f2322161.svg",
     "static/media/mypic.png": "/static/media/mypic.d8162687.png",
-    "static/media/phonebooth.jpg": "/static/media/phonebooth.41b4603a.jpg"
+    "static/media/mysql-icon.svg": "/static/media/mysql-icon.44a44067.svg",
+    "static/media/nginx-icon.svg": "/static/media/nginx-icon.f17129d2.svg",
+    "static/media/node-js-icon.svg": "/static/media/node-js-icon.f96ac8e5.svg",
+    "static/media/phonebooth.jpg": "/static/media/phonebooth.41b4603a.jpg",
+    "static/media/react-js-icon.svg": "/static/media/react-js-icon.a03a8833.svg",
+    "static/media/vue-js-icon.svg": "/static/media/vue-js-icon.3b334297.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ceaf4b5f.js",
-    "static/js/2.7c0d8f17.chunk.js",
-    "static/css/main.e6de171c.chunk.css",
-    "static/js/main.466fed8b.chunk.js"
+    "static/js/2.293151c0.chunk.js",
+    "static/css/main.e987529e.chunk.css",
+    "static/js/main.c89ea477.chunk.js"
   ]
 }
