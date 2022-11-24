@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.be1450c2.chunk.css",
+    "main.js": "/portfolio/static/js/main.5ff374f4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5ff374f4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
+    "static/js/2.7ee3370b.chunk.js": "/portfolio/static/js/2.7ee3370b.chunk.js",
+    "static/js/2.7ee3370b.chunk.js.map": "/portfolio/static/js/2.7ee3370b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5786c8301b8200a9f0e10c3408e5142c.js": "/portfolio/precache-manifest.5786c8301b8200a9f0e10c3408e5142c.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.be1450c2.chunk.css.map": "/portfolio/static/css/main.be1450c2.chunk.css.map",
+    "static/js/2.7ee3370b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7ee3370b.chunk.js.LICENSE.txt",
+    "static/media/mypic.png": "/portfolio/static/media/mypic.d8162687.png",
+    "static/media/phonebooth.jpg": "/portfolio/static/media/phonebooth.41b4603a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.075c0788.js",
+    "static/js/2.7ee3370b.chunk.js",
+    "static/css/main.be1450c2.chunk.css",
+    "static/js/main.5ff374f4.chunk.js"
+  ]
+}
