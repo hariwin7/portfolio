@@ -23,6 +23,10 @@ nav ul {
   font-size: 16px;
   justify-content: flex-end;
   padding-right: 4rem;
+  cursor: pointer;
+}
+nav li:hover {
+  color: #397aff;
 }
 main {
   display: flex;
@@ -235,6 +239,54 @@ main {
   text-decoration: none;
 }
 
+.footer {
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e1e1e1;
+  padding: 1rem;
+  font-family: "Helvetica Now", sans-serif;
+  color: #666;
+  margin-top: 0.5rem;
+}
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+
+.section-skills h3 {
+  overflow: visible;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  order: -1;
+  color: #666;
+  font-weight: 500;
+}
+.skill-wrapper {
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  width: 111px;
+  height: 111px;
+  min-width: 111px;
+  border-radius: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  font-family: averta_stdregular, Helvetica Neue, Helvetica;
+}
+.skills p {
+  font-size: 0.875rem;
+  color: #606f7b;
+  margin: 0.2rem;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     padding: 2rem;
@@ -252,7 +304,8 @@ main {
     align-items: center;
     gap: 2rem;
   }
-  .mystory-text {
+  .mystory-text,
+  .section-skills {
     width: 100%;
   }
   .phone-booth {
@@ -261,6 +314,9 @@ main {
   .section-contact {
     text-align: center;
     width: 100%;
+    justify-content: center;
+  }
+  nav ul {
     justify-content: center;
   }
 }
