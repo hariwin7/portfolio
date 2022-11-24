@@ -91,6 +91,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 2rem;
 }
 
 .mystory-text {
@@ -102,9 +103,6 @@ main {
   width: 100%;
   margin-top: 0px;
   margin-bottom: 15px;
-  -webkit-box-ordinal-group: 0;
-  -webkit-order: -1;
-  -ms-flex-order: -1;
   order: -1;
   color: #666;
   font-weight: 500;
@@ -120,9 +118,7 @@ main {
   width: 100%;
   margin-top: 0px;
   margin-bottom: 15px;
-  -webkit-box-ordinal-group: 0;
-  -webkit-order: -1;
-  -ms-flex-order: -1;
+
   order: -1;
   color: #666;
   font-weight: 500;
@@ -173,6 +169,59 @@ main {
   gap: 0.1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.section-contact {
+  justify-content: center;
+  width: 75%;
+  gap: 2rem;
+}
+.contact {
+  gap: 2rem;
+}
+.contact p {
+  max-width: 100%;
+  margin-bottom: 0px;
+  font-family: "Helvetica Now", sans-serif;
+  color: #666;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+}
+.phone-booth img {
+  border-radius: 10px;
+}
+
+.contact-btn {
+  display: flex;
+  width: max-content;
+  padding: 18px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #272727;
+  transition: color 400ms ease, background-color 400ms ease,
+    box-shadow 400ms ease;
+  font-family: "Helvetica Now", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     padding: 2rem;
@@ -192,5 +241,13 @@ main {
   }
   .mystory-text {
     width: 100%;
+  }
+  .phone-booth {
+    display: none;
+  }
+  .section-contact {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
   }
 }

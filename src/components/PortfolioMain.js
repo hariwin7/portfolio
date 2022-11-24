@@ -9,6 +9,7 @@ import "../assets/css/PortfolioMain.css";
 // import caredata from "../assets/images/caredata.jpg";
 // import caredtbackdrop from "../assets/images/caredtbackdrop.jpg";
 import profileImage from "../assets/images/mypic.png";
+import phoneBooth from "../assets/images/phonebooth.jpg";
 
 const experience = [
   {
@@ -108,20 +109,17 @@ const PortfolioMain = () => {
           <div className="mystory-text">
             <h3>My story</h3>
             <p className="body-paragraph">
-              I have been a creative leader in the digital entertainment and
-              software industry since 2011. During this time, I have had the
-              opportunity to work with some amazing people on several
-              cutting-edge projects.
+              I have been a leader in the software industry since 2018. During
+              this time, I have had the opportunity to work with some amazing
+              people on several cutting-edge projects.
               <br />
               <br />
-              Projects I’ve worked on include an aviation simulation game (NFA)
-              to conceptual products for multi-million dollar corporations
-              (Amazon, KBB, and more). Along this journey, I have worn several .
+              Projects I’ve worked on include .
               <br />
               <br />
-              As a creative leader and mentor, I strive to have my teams
-              flourish by challenging them to be innovative and get out of their
-              comfort zones.
+              As a tech enthusiast , I strive to have my teams flourish by
+              involving in all the phases of development from design to
+              deployment.
             </p>
           </div>
 
@@ -141,6 +139,44 @@ const PortfolioMain = () => {
                 <h5 className="body-paragraph">{item.role}</h5>
               </div>
             ))}
+          </div>
+        </div>
+        <div className="section-about">
+          <div className="about-wrapper">
+            <div className="about">
+              <h1>
+                <span role="img" aria-label="Hi emoji">
+                  🤙
+                </span>
+              </h1>
+              <h3>Contact</h3>
+            </div>
+          </div>
+        </div>
+        <div className="section-contact flex flex-row ">
+          <div className="contact flex flex-column">
+            <p>
+              {/* Are you interested in collaborating or want to connect or chat? */}
+              I'm looking for a job right now , If you are looking to hire me ,
+              hit the contact button down below or{" "}
+              <a
+                href="https://www.linkedin.com/in/hariprasad-k-b-58878512b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                contact me via LinkedIn
+              </a>
+              .
+            </p>
+            <a
+              href="mailto:hariwin7@gmail.com?subject=Contact%20via%20Portfolio"
+              className="contact-btn"
+            >
+              Contact Me
+            </a>
+          </div>
+          <div className="phone-booth">
+            <img src={phoneBooth} alt="phonebooth" />
           </div>
         </div>
       </main>
