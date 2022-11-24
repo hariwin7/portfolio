@@ -79,6 +79,11 @@ main {
   gap: 10rem;
   width: 100%;
 }
+.about-wrapper a {
+  text-decoration: none;
+  color: #397aff;
+}
+
 .about {
   display: flex;
   flex-direction: row;
@@ -106,6 +111,14 @@ main {
   order: -1;
   color: #666;
   font-weight: 500;
+}
+
+.mystory-text a {
+  text-decoration: none;
+  color: #397aff;
+}
+.mystory-text ul li {
+  padding: 0.2rem;
 }
 
 .work-experience {

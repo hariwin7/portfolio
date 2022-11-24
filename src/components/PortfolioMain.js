@@ -10,28 +10,41 @@ import "../assets/css/PortfolioMain.css";
 // import caredtbackdrop from "../assets/images/caredtbackdrop.jpg";
 import profileImage from "../assets/images/mypic.png";
 import phoneBooth from "../assets/images/phonebooth.jpg";
+import { Link } from "phosphor-react";
 
 const experience = [
   {
-    year: "Aug 2022-Nov 2022",
+    year: "2021-Present",
+    companyName: "Review Reels",
+    location: "India (Own product)",
+    role: "Technical Co-founder",
+  },
+  {
+    year: "2022-2022",
     companyName: "Filestage",
-    location: "Germany, Stuttgart (Remote)",
+    location: "Stuttgart, Germany (Remote)",
     role: "Software Developer",
   },
   {
-    year: "Jan 2021-Apr 2022",
+    year: "2022-2022",
+    companyName: "StoreProps",
+    location: "India",
+    role: "Freelance Developer",
+  },
+  {
+    year: "2021-2022",
     companyName: "Tranzact",
     location: "Mumbai, India (Remote)",
     role: "Software Engineer II",
   },
   {
-    year: "Jul 2019-Dec 2020",
+    year: "2019-2020",
     companyName: "Work On Grid",
     location: "Banglore, India",
     role: "Software Development Engineer",
   },
   {
-    year: "Apr 2018-Aug 2018",
+    year: "2018-2018",
     companyName: "Caredata Solutions Pvt Ltd.",
     location: "Thrissur, India",
     role: "Junior Software Engineer",
@@ -78,8 +91,8 @@ const PortfolioMain = () => {
             <h1>Hello, I am Hariprasad K B</h1>
             <p className="profile-desc">
               I am an Experienced Software Engineer with a demonstrated history
-              of working in product based startups. Skilled in Full Stack
-              Development.
+              of working in product based startups. Full Stack Developer | Indie
+              Hacker.
             </p>
           </div>
           <div className="picture">
@@ -101,6 +114,7 @@ const PortfolioMain = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <Link size={14} weight="fill" />
               View on Linkdin
             </a>
           </div>
@@ -114,7 +128,83 @@ const PortfolioMain = () => {
               people on several cutting-edge projects.
               <br />
               <br />
-              Projects I’ve worked on include .
+              Projects I’ve worked on include
+              <ul>
+                <li>
+                  Built and deployed from scratch a complete webapp for my own
+                  product at{" "}
+                  <a
+                    href="https://www.reviewreels.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link size={14} weight="fill" />
+                    Review Reels
+                  </a>
+                </li>
+                <li>
+                  Migrated complex components from angular to react. Migrated
+                  chrome extension from manifest v2 to manifest v3 at{" "}
+                  <a
+                    href="https://www.filestage.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link size={14} weight="fill" />
+                    Filestage
+                  </a>
+                </li>
+                <li>
+                  Built and deployed a shopify app ({" "}
+                  <a
+                    href="https://apps.shopify.com/details"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link size={14} weight="fill" />
+                    details +
+                  </a>
+                  ) from scratch for{" "}
+                  <a
+                    href="https://www.storeprops.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link size={14} weight="fill" />
+                    StoreProps
+                  </a>
+                  .
+                </li>
+                <li>
+                  Optimising the entire frontend of the application at{" "}
+                  <a
+                    href="https://letstranzact.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link size={14} weight="fill" />
+                    Tranzact
+                  </a>{" "}
+                  by code splitting which improved the performance by 50% and
+                  reduced initial load time which in turn reduced customer drop
+                  off.
+                </li>
+                <li>
+                  Dynamic dashboarding platform like metabase for the product
+                  Grid at{" "}
+                  <a
+                    href="https://www.workongrid.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link size={14} weight="fill" />
+                    Work On Grid
+                  </a>
+                </li>
+              </ul>
+              <br />
+              Along this journey, I have worn several hats ranging, including
+              developer, devops, quality assurance, designer.
               <br />
               <br />
               As a tech enthusiast , I strive to have my teams flourish by
@@ -140,6 +230,9 @@ const PortfolioMain = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="work-experience">
+          <h3>My Skillsets</h3>
         </div>
         <div className="section-about">
           <div className="about-wrapper">
