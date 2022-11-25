@@ -310,6 +310,13 @@ const PortfolioMain = () => {
             ))}
           </div>
         </div>
+        {/* <iframe
+          title="video resume"
+          width="700"
+          height="395"
+          style={{ border: "none" }}
+          src="https://www.youtube.com/embed/tedwZ-BeZ9o"
+        ></iframe> */}
         <div className="section-about">
           <div className="about-wrapper">
             <div className="about">
