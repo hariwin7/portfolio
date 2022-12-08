@@ -5,9 +5,6 @@ import React, { useRef } from "react";
 
 import "../assets/css/PortfolioMain.css";
 
-// import pragyaam from "../assets/images/pragyaam.png";
-// import caredata from "../assets/images/caredata.jpg";
-// import caredtbackdrop from "../assets/images/caredtbackdrop.jpg";
 import profileImage from "../assets/images/mypic.png";
 import phoneBooth from "../assets/images/phonebooth.jpg";
 import reactIcon from "../assets/images/react-js-icon.svg";
@@ -139,6 +136,15 @@ const PortfolioMain = () => {
         <ul>
           <li onClick={handleHomeClick}>Home</li>
           <li onClick={handleAboutClick}>About</li>
+          <li>
+            <a
+              href="https://www.medium.com/@hariprasad-kb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blog
+            </a>
+          </li>
           <li onClick={handleContactClick}>Contact</li>
         </ul>
       </nav>

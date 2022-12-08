@@ -28,6 +28,10 @@ nav ul {
 nav li:hover {
   color: #397aff;
 }
+nav li a {
+  text-decoration: none;
+  color: inherit;
+}
 main {
   display: flex;
   justify-content: center;
@@ -297,6 +301,9 @@ main {
   .intro-text {
     text-align: center;
     width: 100%;
+  }
+  .intro-text h1 {
+    font-size: 1.8rem;
   }
   .section-mystory {
     flex-direction: column;
