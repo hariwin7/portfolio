@@ -350,6 +350,20 @@ const PortfolioMain = () => {
             >
               Contact Me
             </a>
+            <p>You can support me on</p>
+            <a
+              href="https://ko-fi.com/M4M3GO1CI"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                height="36"
+                style={{ border: "0px", height: "36px" }}
+                src="https://storage.ko-fi.com/cdn/kofi1.png?v=3"
+                border="0"
+                alt="Buy Me a Coffee at ko-fi.com"
+              />
+            </a>
           </div>
           <div className="phone-booth">
             <img src={phoneBooth} alt="phonebooth" />
