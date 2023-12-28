@@ -17,11 +17,25 @@ import mysqlIcon from "../assets/images/mysql-icon.svg";
 import dockerIcon from "../assets/images/docker-icon.svg";
 import awsIcon from "../assets/images/aws-icon.svg";
 import figmaIcon from "../assets/images/figma-icon.svg";
+import nextJsIcon from "../assets/images/nextjs-icon.svg";
+import solidityIcon from "../assets/images/solidity-icon.svg";
 import { Link } from "phosphor-react";
 
 const experience = [
   {
-    year: "2021-Present",
+    year: "2023-Present",
+    companyName: "DERA",
+    location: "Portugal, Lisbon",
+    role: "Founding Engineer, Head of Development",
+  },
+  {
+    year: "2022-Present",
+    companyName: "StoreProps ",
+    location: "India (Remote)",
+    role: "Technical Co-founder",
+  },
+  {
+    year: "2021-2023",
     companyName: "Review Reels",
     location: "India (Own product)",
     role: "Technical Co-founder",
@@ -32,12 +46,7 @@ const experience = [
     location: "Stuttgart, Germany (Remote)",
     role: "Software Developer",
   },
-  {
-    year: "2022-2022",
-    companyName: "StoreProps ",
-    location: "India (Remote)",
-    role: "Freelance Developer",
-  },
+
   {
     year: "2021-2022",
     companyName: "Tranzact",
@@ -64,6 +73,10 @@ const technologies = [
     icon: reactIcon,
   },
   {
+    name: "Next.js",
+    icon: nextJsIcon,
+  },
+  {
     name: "Vue",
     icon: vueIcon,
   },
@@ -74,6 +87,10 @@ const technologies = [
   {
     name: "Express",
     icon: expressIcon,
+  },
+  {
+    name: "Solidity",
+    icon: solidityIcon,
   },
   {
     name: "Django",
@@ -168,6 +185,15 @@ const PortfolioMain = () => {
           </div>
         </div>
         <div className="section-about">
+          <iframe
+            className="youtube-iframe"
+            frameBorder="0"
+            title="Video Resume"
+            allowFullScreen
+            src="https://www.youtube.com/embed/Ffft2F1YeBA?controls=0"
+          ></iframe>
+        </div>
+        <div className="section-about">
           <div className="about-wrapper">
             <div className="about">
               <h1>
@@ -200,17 +226,30 @@ const PortfolioMain = () => {
             </p>
             <ul className="body-paragraph">
               <li>
-                Built and deployed from scratch a complete webapp for my own
-                product at{" "}
+                Directing a dynamic team of developers and designers in the
+                meticulous creation of the prototype and homepage at DERA{" "}
                 <a
-                  href="https://www.reviewreels.app"
+                  href="https://www.dera.money"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Link size={14} weight="fill" />
-                  Review Reels
+                  DERA
                 </a>
               </li>
+              <li>
+                Built and deployed from scratch a complete webapp for my own
+                product at{" "}
+                {/* <a
+                  href="https://www.reviewreels.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Link size={14} weight="fill" /> */}
+                Review Reels
+                {/* </a> */}
+              </li>
+
               <li>
                 Migrated complex components from angular to react. Migrated
                 chrome extension from manifest v2 to manifest v3 at{" "}
@@ -275,6 +314,10 @@ const PortfolioMain = () => {
               <br />
               Along this journey, I have worn several hats ranging, including
               developer, devops, quality assurance, designer.
+              <br />
+              <br />
+              I have recently added Web3 and Smart Contract developments to my
+              toolkit.
               <br />
               <br />
               As a tech enthusiast , I strive to have my teams flourish by

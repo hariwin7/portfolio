@@ -291,6 +291,14 @@ main {
   margin: 0.2rem;
 }
 
+.youtube-iframe {
+  border-radius: 5px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  width: 800px;
+  height: 450px;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     padding: 2rem;
@@ -325,5 +333,9 @@ main {
   }
   nav ul {
     justify-content: center;
+  }
+  .youtube-iframe {
+    width: 265px;
+    height: 150px;
   }
 }
